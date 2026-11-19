@@ -1,0 +1,489 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Do Zero à Performance — MN Treinos</title>
+<meta name="description" content="Do Zero à Performance — protocolo de treinamento de força específico para corredores de rua. Do primeiro 5 km à sua melhor marca.">
+<meta property="og:title" content="Do Zero à Performance — MN Treinos">
+<meta property="og:description" content="Correr melhor não depende apenas de correr. Protocolo de força específico para corredores de rua.">
+<link rel="preconnect" href="https://player.vimeo.com">
+<link rel="dns-prefetch" href="https://i.vimeocdn.com">
+<link rel="dns-prefetch" href="https://f.vimeocdn.com">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;900&display=swap" rel="stylesheet">
+<!-- ===== Cole aqui seu Pixel da Meta / GTM ===== -->
+<script src="https://cdn.tailwindcss.com"></script>
+<script>
+tailwind.config = {
+theme: {
+extend: {
+fontFamily: { sans: ["Montserrat", "sans-serif"] },
+colors: { mn: { red: "#ED1C24", orange: "#F15A24", dark: "#111111" } }
+}
+}
+};
+</script>
+<style>
+html { scroll-behavior: smooth; }
+body { font-family: "Montserrat", sans-serif; -webkit-font-smoothing: antialiased; }
+.mn-grad { background-image: linear-gradient(90deg, #ED1C24 0%, #F15A24 100%); }
+.mn-grad-text { background-image: linear-gradient(90deg, #ED1C24, #F15A24); -webkit-background-clip: text; background-clip: text; color: transparent; }
+@keyframes pulseSlow { 0%,100% { transform: scale(1); } 50% { transform: scale(1.03); } }
+.animate-pulse-slow { animation: pulseSlow 2.4s ease-in-out infinite; }
+#sticky-cta { transition: transform .3s ease, opacity .3s ease; }
+#sticky-cta.sticky-hidden { transform: translateY(120%); opacity: 0; pointer-events: none; }
+.vsl-frame { position: relative; width: 100%; padding-top: 177.78%; border-radius: 18px; overflow: hidden; background: #000; }
+.vsl-frame iframe { position: absolute; inset: 0; width: 100%; height: 100%; border: 0; }
+</style>
+</head>
+<body class="bg-white text-gray-900">
+<!-- Faixa de urgência -->
+<div class="w-full mn-grad text-center py-2.5 px-4">
+<p id="urgency-text" class="uppercase tracking-wider text-white text-[11px] sm:text-xs font-bold">🔥 Condição especial de lançamento · Black Friday</p>
+</div>
+<!-- Topo + VSL -->
+<section class="flex flex-col items-center px-5 pt-6 pb-4 bg-mn-dark">
+<div class="w-24 mb-5"><svg class="w-full h-auto" role="img" aria-label="MN Treinos" xmlns="http://www.w3.org/2000/svg" viewBox="632 430 656 282"><defs><linearGradient id="mng" gradientUnits="userSpaceOnUse" x1="637" x2="1283" y1="0" y2="0"><stop offset="0" stop-color="#ED1C24"/><stop offset="1" stop-color="#F15A24"/></linearGradient></defs><path fill="url(#mng)" d="M 982.363281 435.125 C 973.253906 435.125 964.703125 439.503906 959.378906 446.890625 C 948.625 461.804688 937.871094 476.71875 927.125 491.636719 C 919.679688 501.976562 912.105469 512.21875 904.789062 522.648438 C 900.410156 528.894531 892.417969 535.566406 884.964844 532.582031 C 877.121094 529.4375 879.289062 519.546875 880.617188 512.199219 C 884.792969 489.078125 888.808594 465.929688 892.8125 442.777344 C 893.503906 438.777344 890.429688 435.125 886.371094 435.125 L 842.777344 435.125 C 839.863281 435.125 837.089844 436.386719 835.175781 438.585938 L 643.527344 658.804688 C 639.648438 663.261719 637.515625 668.96875 637.515625 674.875 L 637.515625 676.371094 C 637.515625 693.507812 651.40625 707.402344 668.546875 707.402344 L 669.058594 707.402344 C 670.960938 707.402344 672.765625 706.574219 674.007812 705.132812 C 707.667969 666.105469 741.441406 627.175781 775.277344 588.300781 C 778.851562 584.195312 783.5 579.535156 788.386719 578.449219 C 793.960938 577.207031 801.550781 577.996094 805.988281 581.128906 C 809.011719 583.265625 809.753906 591.285156 808.734375 596.078125 C 801.703125 629.058594 793.921875 661.875 786.433594 694.757812 C 786.070312 696.347656 785.738281 697.949219 785.410156 699.609375 C 784.613281 703.644531 787.714844 707.402344 791.828125 707.402344 L 832.972656 707.402344 C 834.875 707.402344 836.683594 706.574219 837.921875 705.132812 C 871.585938 666.105469 905.355469 627.175781 939.195312 588.300781 C 942.769531 584.195312 947.417969 579.535156 952.304688 578.449219 C 957.875 577.207031 965.46875 577.996094 969.902344 581.128906 C 972.929688 583.265625 973.671875 591.285156 972.648438 596.078125 C 965.621094 629.058594 957.839844 661.875 950.347656 694.757812 C 949.988281 696.347656 949.65625 697.949219 949.328125 699.609375 C 948.53125 703.644531 951.628906 707.402344 955.746094 707.402344 L 1004.027344 707.402344 L 1066.90625 435.125 Z M 982.363281 435.125"/><path fill="url(#mng)" d="M 1247.980469 435.125 C 1244.75 435.125 1242.003906 437.484375 1241.519531 440.679688 C 1237.871094 464.683594 1234.199219 488.6875 1230.507812 512.6875 C 1229.675781 518.066406 1226.519531 526.59375 1222.972656 530.125 C 1218.921875 534.152344 1213.828125 534.125 1208.515625 533.398438 C 1204.867188 532.898438 1199.765625 528.582031 1198.070312 523.984375 C 1189.503906 500.777344 1181.328125 477.429688 1173.144531 454.085938 C 1169.164062 442.726562 1158.441406 435.125 1146.40625 435.125 L 1082.214844 435.125 L 1019.339844 707.402344 L 1071.300781 707.402344 C 1074.5625 707.402344 1077.324219 704.992188 1077.773438 701.757812 C 1082.484375 667.660156 1087.25 633.566406 1092.054688 599.480469 C 1092.816406 594.089844 1094.175781 587.652344 1097.679688 584.078125 C 1101.675781 580 1108.394531 577.679688 1113.820312 577.890625 C 1117.523438 578.03125 1122.589844 583.199219 1124.347656 587.777344 C 1136.421875 619.261719 1147.777344 651.019531 1159.410156 682.671875 C 1161.0625 687.160156 1162.964844 691.550781 1165.300781 697.351562 C 1166.15625 699.417969 1167.03125 701.46875 1167.917969 703.496094 C 1168.960938 705.871094 1171.3125 707.402344 1173.90625 707.402344 L 1223.109375 707.402344 C 1267.890625 707.402344 1282.484375 684.523438 1282.484375 639.746094 L 1282.484375 626.792969 L 1275.488281 437.4375 C 1275.269531 436.105469 1274.117188 435.125 1272.765625 435.125 Z M 1247.980469 435.125"/></svg></div>
+<h1 class="text-white text-center text-2xl sm:text-3xl font-black leading-tight max-w-[560px]">
+Correr melhor <span class="mn-grad-text">não depende apenas de correr.</span>
+</h1>
+<p class="text-gray-400 text-center text-sm mt-3 max-w-[480px]">Assista ao vídeo até o final. Nele eu explico o que está faltando para você correr mais forte e mais rápido.</p>
+<div id="vsl-container" class="w-full max-w-[400px] mt-6 mb-4">
+<div class="vsl-frame shadow-[0_0_60px_rgba(241,90,36,0.25)]">
+<iframe id="vsl" src="https://player.vimeo.com/video/1246223668?h=19cb68e89d&badge=0&autopause=0&title=0&byline=0&portrait=0&playsinline=1" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen title="Do Zero à Performance"></iframe>
+</div>
+</div>
+<p id="locked-hint" class="text-gray-500 text-xs text-center mb-4">🔊 Ative o som do vídeo</p>
+</section>
+<!-- Conteúdo liberado no momento da oferta no vídeo -->
+<div id="locked-content" style="display:none">
+<section class="pt-8 pb-10 px-5 text-center bg-mn-dark">
+<div class="max-w-[420px] mx-auto">
+<div id="hero-cta"></div>
+<p class="mt-3 text-xs text-gray-400">Acesso pelo app · Garantia de 7 dias</p>
+</div>
+</section>
+<!-- Resultados -->
+<section id="testimonials-section" class="py-16 md:py-20 px-5">
+<div class="max-w-[760px] mx-auto">
+<div class="text-center mb-10">
+<span class="text-xs font-bold uppercase tracking-widest text-mn-orange">Resultados reais</span>
+<h2 class="text-3xl md:text-4xl font-black mt-2">Dois corredores. Objetivos diferentes.<br class="hidden sm:block"> O mesmo ponto de virada.</h2>
+</div>
+<div id="testimonials-grid" class="grid grid-cols-1 sm:grid-cols-2 gap-4"></div>
+</div>
+</section>
+<div class="max-w-[760px] mx-auto px-5"><div class="h-px bg-gradient-to-r from-transparent via-gray-200 to-transparent"></div></div>
+<!-- Problema -->
+<section class="py-16 md:py-20 px-5">
+<div class="max-w-[760px] mx-auto">
+<div class="text-center mb-10">
+<span class="text-xs font-bold uppercase tracking-widest text-mn-orange">O problema real</span>
+<h2 class="text-3xl md:text-4xl font-black mt-2">No começo, tudo é conquista.</h2>
+<p class="text-gray-500 text-base mt-3">Os primeiros 3 km. Os primeiros 10. Uns 5 km mais rápido. Até que você quer mais, e o corpo começa a cobrar.</p>
+</div>
+<div id="pain-list" class="grid grid-cols-1 sm:grid-cols-2 gap-3"></div>
+<div class="mt-8 border-l-4 border-mn-orange pl-5 py-1">
+<p class="text-lg font-black text-gray-900">"Será que o que falta pra você correr melhor é correr mais?"</p>
+<p class="text-sm text-gray-500 mt-1">Na maioria das vezes, a resposta é não.</p>
+</div>
+</div>
+</section>
+<div class="max-w-[760px] mx-auto px-5"><div class="h-px bg-gradient-to-r from-transparent via-gray-200 to-transparent"></div></div>
+<!-- Por que a musculação comum não resolve -->
+<section class="py-16 md:py-20 px-5">
+<div class="max-w-[760px] mx-auto">
+<div class="text-center mb-10">
+<span class="text-xs font-bold uppercase tracking-widest text-mn-orange">O erro mais comum</span>
+<h2 class="text-3xl md:text-4xl font-black mt-2">Você até faz musculação.<br class="hidden sm:block"> Mas ela não foi pensada para a corrida.</h2>
+</div>
+<div class="grid md:grid-cols-2 gap-4">
+<div class="bg-gray-50 border border-gray-200 rounded-2xl p-6">
+<p class="text-xs font-bold uppercase tracking-wider text-gray-400 mb-3">Musculação genérica</p>
+<ul id="generic-list" class="space-y-2.5"></ul>
+</div>
+<div class="bg-mn-dark rounded-2xl p-6">
+<p class="text-xs font-bold uppercase tracking-wider text-mn-orange mb-3">Força específica para corredor</p>
+<ul id="specific-list" class="space-y-2.5"></ul>
+</div>
+</div>
+<div class="mt-8 mn-grad rounded-2xl px-6 py-6 text-center">
+<p class="text-lg font-black leading-snug text-white">Não basta ter pernas fortes e pulmão em dia.<br><span class="font-medium text-orange-100">Você precisa de uma força que seja útil na sua corrida.</span></p>
+</div>
+</div>
+</section>
+<div class="max-w-[760px] mx-auto px-5"><div class="h-px bg-gradient-to-r from-transparent via-gray-200 to-transparent"></div></div>
+<!-- Solução -->
+<section class="py-16 md:py-20 px-5">
+<div class="max-w-[760px] mx-auto">
+<div class="text-center mb-10">
+<span class="text-xs font-bold uppercase tracking-widest text-mn-orange">A solução</span>
+<h2 class="text-3xl md:text-4xl font-black mt-2">Do Zero à Performance.</h2>
+<p class="text-gray-500 text-base mt-3">Protocolo de treinamento de força específico para corredores de rua. O que ele desenvolve em você:</p>
+</div>
+<div id="pillars" class="space-y-4"></div>
+</div>
+</section>
+<div class="max-w-[760px] mx-auto px-5"><div class="h-px bg-gradient-to-r from-transparent via-gray-200 to-transparent"></div></div>
+<!-- Para quem é -->
+<section class="py-16 md:py-20 px-5">
+<div class="max-w-[760px] mx-auto">
+<div class="text-center mb-10">
+<span class="text-xs font-bold uppercase tracking-widest text-mn-orange">Para quem é</span>
+<h2 class="text-3xl md:text-4xl font-black mt-2">Do primeiro 5 km à sua melhor marca.</h2>
+</div>
+<div class="grid sm:grid-cols-2 gap-4">
+<div class="bg-white border border-gray-200 rounded-2xl p-6 shadow-sm">
+<span class="text-3xl">🏃</span>
+<h3 class="text-lg font-black mt-3">Está começando</h3>
+<p class="text-sm text-gray-600 mt-2 leading-relaxed">Busca seus primeiros 5 ou 10 km e quer construir uma base forte desde o início, sem improvisar.</p>
+</div>
+<div class="bg-white border border-gray-200 rounded-2xl p-6 shadow-sm">
+<span class="text-3xl">🏅</span>
+<h3 class="text-lg font-black mt-3">Já corre distâncias maiores</h3>
+<p class="text-sm text-gray-600 mt-2 leading-relaxed">Corre meia ou maratona e quer sustentar o ritmo, evoluir o pace e chegar mais preparado nas próximas provas.</p>
+</div>
+</div>
+<div class="mt-6 bg-gray-50 border border-gray-200 rounded-2xl p-6">
+<p class="text-sm font-bold text-gray-900">O objetivo não é transformar você em fisiculturista.</p>
+<p class="text-sm text-gray-600 mt-1 leading-relaxed">É desenvolver um corpo mais preparado para correr: mais força, mais resistência e mais confiança para buscar evolução.</p>
+</div>
+</div>
+</section>
+<div class="max-w-[760px] mx-auto px-5"><div class="h-px bg-gradient-to-r from-transparent via-gray-200 to-transparent"></div></div>
+<!-- Autoridade -->
+<section class="py-16 md:py-20 px-5">
+<div class="max-w-[760px] mx-auto">
+<div class="flex items-center gap-4 mb-6">
+<div class="w-16 h-16 rounded-full overflow-hidden mn-grad flex items-center justify-center flex-shrink-0">
+<!-- Troque pela foto do Manoel: <img src="manoel.jpg" class="w-full h-full object-cover" alt="Manoel Neto"> -->
+<span class="text-white font-black text-xl">MN</span>
+</div>
+<div>
+<p class="text-base font-black text-gray-900">Manoel Neto</p>
+<p class="text-xs text-gray-500">Personal trainer · Especialista na preparação de corredores de rua · MN Treinos</p>
+</div>
+</div>
+<span class="text-xs font-bold uppercase tracking-widest text-mn-orange">De onde vem o método</span>
+<h2 class="text-3xl md:text-4xl font-black mt-2 mb-6">Do presencial para a palma da sua mão.</h2>
+<div class="space-y-4">
+<div class="flex gap-3 items-start"><span class="text-mn-orange font-black mt-0.5">→</span><p class="text-sm text-gray-700 leading-relaxed">Uma coisa que eu vejo com muita frequência: corredores comprometidos, que fazem musculação, mas com uma preparação de força que não foi pensada para as demandas da corrida.</p></div>
+<div class="flex gap-3 items-start"><span class="text-mn-orange font-black mt-0.5">→</span><p class="text-sm text-gray-700 leading-relaxed">Por isso desenvolvemos a metodologia de treinamento de força da MN Treinos e a aplicamos no acompanhamento presencial dos nossos corredores.</p></div>
+<div class="flex gap-3 items-start"><span class="text-emerald-500 font-black mt-0.5">✓</span><p class="text-sm text-gray-700 leading-relaxed"><strong>Agora ela está disponível para você, no app Do Zero à Performance.</strong> Você não precisa treinar comigo presencialmente.</p></div>
+</div>
+</div>
+</section>
+<div class="max-w-[760px] mx-auto px-5"><div class="h-px bg-gradient-to-r from-transparent via-gray-200 to-transparent"></div></div>
+<!-- Como funciona -->
+<section class="py-16 md:py-20 px-5">
+<div class="max-w-[760px] mx-auto">
+<div class="text-center mb-10">
+<span class="text-xs font-bold uppercase tracking-widest text-mn-orange">Como funciona na prática</span>
+<h2 class="text-3xl md:text-4xl font-black mt-2">Por dentro do app.</h2>
+</div>
+<div class="bg-mn-dark rounded-2xl overflow-hidden">
+<div class="bg-gray-800 px-5 py-3 flex items-center">
+<div class="flex gap-1.5"><span class="w-2.5 h-2.5 rounded-full bg-red-500"></span><span class="w-2.5 h-2.5 rounded-full bg-yellow-500"></span><span class="w-2.5 h-2.5 rounded-full bg-green-500"></span></div>
+<div class="flex-1 text-center text-xs text-gray-400 font-semibold">Do Zero à Performance</div>
+</div>
+<div id="app-steps"></div>
+<div class="px-6 py-4 bg-[#F15A24]/10">
+<p class="text-xs text-mn-orange font-semibold">⚡ Acesso ao app após a confirmação da compra</p>
+</div>
+</div>
+</div>
+</section>
+<div class="max-w-[760px] mx-auto px-5"><div class="h-px bg-gradient-to-r from-transparent via-gray-200 to-transparent"></div></div>
+<!-- Oferta -->
+<section id="oferta" class="py-16 md:py-20 px-5">
+<div class="max-w-[520px] mx-auto">
+<div class="text-center mb-8">
+<span class="text-xs font-bold uppercase tracking-widest text-mn-orange">Condição de lançamento · Black Friday</span>
+<h2 class="text-3xl md:text-4xl font-black mt-2">Tudo o que você recebe hoje.</h2>
+</div>
+<div class="bg-white border border-gray-200 rounded-3xl overflow-hidden shadow-xl">
+<div class="bg-mn-dark px-6 py-8 text-center">
+<p class="text-xs font-semibold uppercase tracking-wider text-gray-400">Acesso completo · Do Zero à Performance</p>
+<p id="price-from" class="text-sm text-gray-500 line-through mt-3"></p>
+<p class="text-5xl md:text-6xl font-black text-white mt-1"><span class="text-2xl align-top mr-1">R$</span><span id="price-main"></span></p>
+<p id="price-note" class="text-sm text-gray-400 mt-3"></p>
+</div>
+<div id="offer-items" class="px-6 py-4"></div>
+<div class="px-6 pb-8 pt-4">
+<div id="offer-cta" class="text-center"></div>
+</div>
+</div>
+</div>
+</section>
+<!-- Garantia -->
+<div class="px-5 max-w-[760px] mx-auto">
+<div class="bg-emerald-600 rounded-2xl px-6 py-8 text-center text-white">
+<p class="text-4xl mb-3">🛡️</p>
+<h4 class="text-xl font-black mb-2"><span id="guarantee-days"></span> dias de garantia</h4>
+<p class="text-sm text-emerald-100 leading-relaxed">Entre no app, conheça o protocolo e comece os treinos. Se dentro do prazo você sentir que não é para você, é só pedir o reembolso. <strong class="text-white">Sem burocracia.</strong></p>
+</div>
+</div>
+<!-- FAQ -->
+<section class="py-16 md:py-20 px-5">
+<div class="max-w-[760px] mx-auto">
+<div class="text-center mb-10">
+<span class="text-xs font-bold uppercase tracking-widest text-mn-orange">Dúvidas frequentes</span>
+<h2 class="text-3xl md:text-4xl font-black mt-2">Perguntas comuns.</h2>
+</div>
+<div id="faq-list" class="space-y-2"></div>
+</div>
+</section>
+<!-- Fechamento -->
+<section class="pb-16 md:pb-20 px-5">
+<div class="max-w-[760px] mx-auto bg-mn-dark rounded-3xl px-8 py-12 text-center">
+<span class="text-xs font-bold uppercase tracking-widest text-mn-orange">A decisão</span>
+<h2 class="text-3xl md:text-4xl font-black text-white mt-2 mb-8">Correr melhor não começa na próxima corrida.</h2>
+<div class="grid sm:grid-cols-2 gap-4 text-left mb-8">
+<div class="bg-gray-800 rounded-xl p-5">
+<p class="text-xs font-bold uppercase text-gray-400 mb-2">Continuar como está</p>
+<p class="text-sm text-gray-300 leading-relaxed">Improvisar na musculação, sentir as pernas pesarem no meio da prova e torcer para o ritmo segurar.</p>
+</div>
+<div class="bg-[#F15A24]/10 border border-[#F15A24]/30 rounded-xl p-5">
+<p class="text-xs font-bold uppercase text-mn-orange mb-2">Começar hoje</p>
+<p class="text-sm text-gray-200 leading-relaxed">Uma preparação de força estruturada para o corredor, para ficar mais forte e correr mais rápido.</p>
+</div>
+</div>
+<div id="final-cta" class="text-center"></div>
+</div>
+</section>
+<footer class="border-t border-gray-200 bg-white px-5 py-8 pb-24 text-center">
+<div class="w-14 mx-auto mb-3"><svg class="w-full h-auto" role="img" aria-label="MN Treinos" xmlns="http://www.w3.org/2000/svg" viewBox="632 430 656 282"><defs><linearGradient id="mng" gradientUnits="userSpaceOnUse" x1="637" x2="1283" y1="0" y2="0"><stop offset="0" stop-color="#ED1C24"/><stop offset="1" stop-color="#F15A24"/></linearGradient></defs><path fill="url(#mng)" d="M 982.363281 435.125 C 973.253906 435.125 964.703125 439.503906 959.378906 446.890625 C 948.625 461.804688 937.871094 476.71875 927.125 491.636719 C 919.679688 501.976562 912.105469 512.21875 904.789062 522.648438 C 900.410156 528.894531 892.417969 535.566406 884.964844 532.582031 C 877.121094 529.4375 879.289062 519.546875 880.617188 512.199219 C 884.792969 489.078125 888.808594 465.929688 892.8125 442.777344 C 893.503906 438.777344 890.429688 435.125 886.371094 435.125 L 842.777344 435.125 C 839.863281 435.125 837.089844 436.386719 835.175781 438.585938 L 643.527344 658.804688 C 639.648438 663.261719 637.515625 668.96875 637.515625 674.875 L 637.515625 676.371094 C 637.515625 693.507812 651.40625 707.402344 668.546875 707.402344 L 669.058594 707.402344 C 670.960938 707.402344 672.765625 706.574219 674.007812 705.132812 C 707.667969 666.105469 741.441406 627.175781 775.277344 588.300781 C 778.851562 584.195312 783.5 579.535156 788.386719 578.449219 C 793.960938 577.207031 801.550781 577.996094 805.988281 581.128906 C 809.011719 583.265625 809.753906 591.285156 808.734375 596.078125 C 801.703125 629.058594 793.921875 661.875 786.433594 694.757812 C 786.070312 696.347656 785.738281 697.949219 785.410156 699.609375 C 784.613281 703.644531 787.714844 707.402344 791.828125 707.402344 L 832.972656 707.402344 C 834.875 707.402344 836.683594 706.574219 837.921875 705.132812 C 871.585938 666.105469 905.355469 627.175781 939.195312 588.300781 C 942.769531 584.195312 947.417969 579.535156 952.304688 578.449219 C 957.875 577.207031 965.46875 577.996094 969.902344 581.128906 C 972.929688 583.265625 973.671875 591.285156 972.648438 596.078125 C 965.621094 629.058594 957.839844 661.875 950.347656 694.757812 C 949.988281 696.347656 949.65625 697.949219 949.328125 699.609375 C 948.53125 703.644531 951.628906 707.402344 955.746094 707.402344 L 1004.027344 707.402344 L 1066.90625 435.125 Z M 982.363281 435.125"/><path fill="url(#mng)" d="M 1247.980469 435.125 C 1244.75 435.125 1242.003906 437.484375 1241.519531 440.679688 C 1237.871094 464.683594 1234.199219 488.6875 1230.507812 512.6875 C 1229.675781 518.066406 1226.519531 526.59375 1222.972656 530.125 C 1218.921875 534.152344 1213.828125 534.125 1208.515625 533.398438 C 1204.867188 532.898438 1199.765625 528.582031 1198.070312 523.984375 C 1189.503906 500.777344 1181.328125 477.429688 1173.144531 454.085938 C 1169.164062 442.726562 1158.441406 435.125 1146.40625 435.125 L 1082.214844 435.125 L 1019.339844 707.402344 L 1071.300781 707.402344 C 1074.5625 707.402344 1077.324219 704.992188 1077.773438 701.757812 C 1082.484375 667.660156 1087.25 633.566406 1092.054688 599.480469 C 1092.816406 594.089844 1094.175781 587.652344 1097.679688 584.078125 C 1101.675781 580 1108.394531 577.679688 1113.820312 577.890625 C 1117.523438 578.03125 1122.589844 583.199219 1124.347656 587.777344 C 1136.421875 619.261719 1147.777344 651.019531 1159.410156 682.671875 C 1161.0625 687.160156 1162.964844 691.550781 1165.300781 697.351562 C 1166.15625 699.417969 1167.03125 701.46875 1167.917969 703.496094 C 1168.960938 705.871094 1171.3125 707.402344 1173.90625 707.402344 L 1223.109375 707.402344 C 1267.890625 707.402344 1282.484375 684.523438 1282.484375 639.746094 L 1282.484375 626.792969 L 1275.488281 437.4375 C 1275.269531 436.105469 1274.117188 435.125 1272.765625 435.125 Z M 1247.980469 435.125"/></svg></div>
+<p class="text-xs text-gray-500 font-semibold">Do Zero à Performance · MN Treinos · Manoel Neto</p>
+<p class="text-xs text-gray-400 mt-2">
+<a href="#" class="hover:text-gray-600 transition-colors">Termos de uso</a> <span>·</span>
+<a href="#" class="hover:text-gray-600 transition-colors">Política de privacidade</a> <span>·</span>
+<a href="#" class="hover:text-gray-600 transition-colors">Contato</a>
+</p>
+<p class="text-[10px] text-gray-400 mt-4 max-w-[560px] mx-auto">Os resultados apresentados são individuais e podem variar de pessoa para pessoa. Este programa não substitui avaliação médica. Consulte um profissional de saúde antes de iniciar qualquer atividade física.</p>
+</footer>
+<!-- CTA fixo -->
+<div id="sticky-cta" class="sticky-hidden fixed bottom-0 left-0 right-0 z-50 px-4 pb-4 pt-3 bg-gradient-to-t from-white via-white/95 to-transparent">
+<div class="max-w-[480px] mx-auto"></div>
+</div>
+</div>
+<script src="https://player.vimeo.com/api/player.js"></script>
+<script>
+/* =====================================================
+CONFIGURAÇÃO — edite aqui
+===================================================== */
+var CONFIG = {
+CHECKOUT_URL: "#COLE-AQUI-O-LINK-DO-CHECKOUT", // ex.: https://pay.hotmart.com/XXXX?off=YYYY
+PRICE: "97,90",
+PRICE_FROM: "",                 // ex.: "De R$197" (deixe vazio para esconder)
+PRICE_NOTE: "à vista · Condição de lançamento",
+GUARANTEE_DAYS: 7,
+REVEAL_SECONDS: 324,            // 5:24 — momento em que o vídeo apresenta a oferta. Use 0 para mostrar tudo direto.
+CTA_TEXT: "QUERO COMEÇAR AGORA"
+};
+/* ===== Checkout com repasse de UTMs (sck) e ID do usuário (xcod) — padrão Hotmart ===== */
+function setCookie(n, v, d) { document.cookie = n + "=" + encodeURIComponent(v) + ";expires=" + new Date(Date.now() + d * 864e5).toUTCString() + ";path=/;SameSite=Lax;Secure"; }
+function getCookie(n) { var m = document.cookie.match(new RegExp("(^| )" + n + "=([^;]+)")); return m ? decodeURIComponent(m[2]) : null; }
+function handleCheckout(e) {
+e.preventDefault();
+var uid = null;
+try { uid = sessionStorage.getItem("user_id_mn"); } catch (x) {}
+if (!uid) uid = getCookie("user_id_mn");
+if (!uid) uid = "mn_" + Date.now() + "_" + Math.random().toString(36).substr(2, 9);
+try { sessionStorage.setItem("user_id_mn", uid); } catch (x) {}
+setCookie("user_id_mn", uid, 365);
+window.dataLayer = window.dataLayer || [];
+window.dataLayer.push({ event: "custom_begin_checkout", user_id_mn: uid });
+if (typeof fbq === "function") { try { fbq("track", "InitiateCheckout"); } catch (x) {} }
+var url = CONFIG.CHECKOUT_URL;
+var add = function (k, v) { url += (url.indexOf("?") === -1 ? "?" : "&") + k + "=" + encodeURIComponent(v); };
+var q = new URLSearchParams(location.search);
+if (url.indexOf("sck=") === -1) {
+if (q.has("sck")) add("sck", q.get("sck"));
+else {
+var parts = ["utm_source", "utm_medium", "utm_campaign", "utm_content"].filter(function (p) { return q.has(p); }).map(function (p) { return q.get(p); });
+if (parts.length) add("sck", parts.join("|"));
+}
+}
+if (url.indexOf("xcod=") === -1) add("xcod", uid);
+setTimeout(function () { window.location.href = url; }, 400);
+}
+function createCTA(text, block, note) {
+var div = document.createElement("div");
+div.className = block ? "text-center" : "inline-block";
+var a = document.createElement("a");
+a.href = CONFIG.CHECKOUT_URL;
+a.onclick = handleCheckout;
+a.className = "inline-block mn-grad text-white font-black text-base px-10 py-4 rounded-full hover:shadow-[0_0_30px_rgba(241,90,36,0.45)] transition-all duration-300 animate-pulse-slow" + (block ? " w-full text-center" : "");
+a.style.boxShadow = "inset 0 2px 4px rgba(255,255,255,0.15), 0 4px 20px rgba(237,28,36,0.25)";
+a.textContent = text || CONFIG.CTA_TEXT;
+div.appendChild(a);
+if (note) { var p = document.createElement("p"); p.className = "mt-3 text-xs text-gray-400"; p.textContent = note; div.appendChild(p); }
+return div;
+}
+/* ===== Depoimentos (resultados citados no vídeo) ===== */
+(function () {
+var t = [
+{ badge: "Meia maratona · 1h35", name: "Fernando", detail: "Meia Maratona de Porto Alegre", before: "Na primeira meia maratona: pernas pesadas, dores e dificuldade para sustentar o ritmo. A musculação dele era genérica.", after: "Com força direcionada às necessidades dele como corredor, fez 1h35 em Porto Alegre, o melhor tempo dele até aqui.", tag: "Melhor tempo da vida" },
+{ badge: "Maratona sub 3", name: "Rafael", detail: "Maratona de Porto Alegre", before: "Já corria maratonas, mas quebrou durante a Maratona de São Paulo e precisou rever a preparação por completo.", after: "Com força específica integrada aos treinos de corrida: maratona sub 3, com 42 km em pace médio abaixo de 4:21/km.", tag: "Sub 3 conquistado" }
+];
+var c = document.getElementById("testimonials-grid");
+t.forEach(function (x) {
+var d = document.createElement("div");
+d.className = "bg-white border border-gray-100 rounded-2xl p-6 shadow-sm hover:shadow-md transition-shadow flex flex-col";
+d.innerHTML =
+'<div class="mb-4"><span class="mn-grad text-white text-[10px] font-bold px-2.5 py-1 rounded-full uppercase tracking-wide">' + x.badge + '</span></div>' +
+'<p class="text-xs font-bold uppercase text-gray-400 mb-1">Antes</p><p class="text-gray-600 text-sm leading-relaxed mb-4">' + x.before + '</p>' +
+'<p class="text-xs font-bold uppercase text-mn-orange mb-1">Depois</p><p class="text-gray-900 text-sm leading-relaxed mb-5 font-semibold">' + x.after + '</p>' +
+'<div class="mt-auto flex items-center justify-between border-t border-gray-100 pt-4"><div><p class="text-sm font-bold text-gray-900">' + x.name + '</p><p class="text-xs text-gray-400">' + x.detail + '</p></div>' +
+'<span class="text-xs font-semibold text-emerald-600 bg-emerald-50 px-3 py-1 rounded-full">✓ ' + x.tag + '</span></div>';
+c.appendChild(d);
+});
+})();
+/* ===== Dores ===== */
+(function () {
+var p = [
+{ i: "🦵", t: "As pernas começam a pesar" },
+{ i: "⏱️", t: "O ritmo fica difícil de sustentar ao longo do percurso" },
+{ i: "⚡", t: "Dores te perseguem a cada km: canelite, joelho, lombar" },
+{ i: "🧱", t: "Mesmo treinando, parece que falta alguma coisa" }
+];
+var c = document.getElementById("pain-list");
+p.forEach(function (x) {
+var d = document.createElement("div");
+d.className = "flex items-center gap-4 bg-white border border-gray-100 rounded-xl px-5 py-4 shadow-sm";
+d.innerHTML = '<span class="text-2xl">' + x.i + '</span><p class="text-sm font-semibold text-gray-800">' + x.t + '</p>';
+c.appendChild(d);
+});
+})();
+/* ===== Genérica x Específica ===== */
+(function () {
+var g = ["Agachamentos e máquinas sem critério", "Aumentar a carga como único objetivo", "Fortalece o músculo, mas não prepara para a passada", "Nada estruturado para as demandas da corrida"];
+var s = ["Estabilidade a cada apoio", "Controle de movimento", "Resistência muscular para sustentar o ritmo", "Absorver e produzir força a cada passada"];
+var gl = document.getElementById("generic-list"), sl = document.getElementById("specific-list");
+g.forEach(function (x) { var li = document.createElement("li"); li.className = "flex gap-2 text-sm text-gray-600"; li.innerHTML = '<span class="text-gray-400 font-black">✕</span>' + x; gl.appendChild(li); });
+s.forEach(function (x) { var li = document.createElement("li"); li.className = "flex gap-2 text-sm text-gray-200"; li.innerHTML = '<span class="text-emerald-400 font-black">✓</span>' + x; sl.appendChild(li); });
+})();
+/* ===== Pilares do protocolo ===== */
+(function () {
+var p = [
+{ n: "01", color: "bg-mn-red", title: "Estabilidade", desc: "Uma base firme para cada apoio no chão, do primeiro ao último km." },
+{ n: "02", color: "bg-mn-dark", title: "Controle de movimento", desc: "O corpo se move com mais eficiência e desperdiça menos energia na passada." },
+{ n: "03", color: "bg-mn-orange", title: "Resistência muscular", desc: "Pernas que aguentam as exigências dos treinos e sustentam o ritmo até o fim da prova." },
+{ n: "04", color: "bg-emerald-600", title: "Absorver e produzir força", desc: "A força que realmente é útil na corrida: amortecer o impacto e impulsionar a cada passada." }
+];
+var c = document.getElementById("pillars");
+p.forEach(function (x) {
+var d = document.createElement("div");
+d.className = "flex gap-5 items-start bg-white border border-gray-100 rounded-2xl p-6 shadow-sm";
+d.innerHTML = '<div class="' + x.color + ' text-white text-sm font-black rounded-xl px-3 py-2 flex-shrink-0">' + x.n + '</div><div><h3 class="text-base font-black text-gray-900 mb-1">' + x.title + '</h3><p class="text-sm text-gray-600 leading-relaxed">' + x.desc + '</p></div>';
+c.appendChild(d);
+});
+})();
+/* ===== Por dentro do app ===== */
+(function () {
+var s = [
+{ n: "1", title: "Preparação de força estruturada", tag: "Nada de improviso", desc: "O protocolo diz o que fazer e em que ordem. Você só segue." },
+{ n: "2", title: "Exercícios direcionados ao corredor", tag: "Específico", desc: "Todos os exercícios pensados para as necessidades de quem corre." },
+{ n: "3", title: "Complementa sua corrida", tag: "Academia ou outros ambientes", desc: "Encaixa nos seus treinos de corrida, na academia ou nos ambientes previstos no protocolo." }
+];
+var c = document.getElementById("app-steps");
+s.forEach(function (x, i) {
+var d = document.createElement("div");
+d.className = "flex gap-4 px-6 py-5 items-start" + (i < s.length - 1 ? " border-b border-gray-800" : "");
+d.innerHTML = '<div class="w-8 h-8 rounded-lg mn-grad text-white text-sm font-black flex items-center justify-center flex-shrink-0">' + x.n + '</div><div><div class="flex items-center gap-2 mb-1 flex-wrap"><p class="text-sm font-bold text-white">' + x.title + '</p><span class="text-[10px] font-semibold bg-gray-700 text-gray-300 px-2 py-0.5 rounded-full">' + x.tag + '</span></div><p class="text-xs text-gray-400 leading-relaxed">' + x.desc + '</p></div>';
+c.appendChild(d);
+});
+})();
+/* ===== Itens da oferta ===== */
+(function () {
+var items = [
+{ label: "App Do Zero à Performance", desc: "A metodologia de força da MN Treinos na palma da sua mão" },
+{ label: "Protocolo de força específico para corredor", desc: "Preparação estruturada, com todos os exercícios direcionados" },
+{ label: "Para iniciantes e experientes", desc: "Dos primeiros 5–10 km a meia maratona e maratona" },
+{ label: "Academia ou outros ambientes", desc: "Complementa seus treinos de corrida na sua rotina" }
+// Para adicionar bônus: { label: "Bônus: ...", desc: "..." },
+];
+var c = document.getElementById("offer-items");
+items.forEach(function (x, i) {
+var d = document.createElement("div");
+d.className = "flex gap-3 items-center py-3.5 text-sm" + (i < items.length - 1 ? " border-b border-gray-100" : "");
+d.innerHTML = '<span class="text-emerald-500 font-black text-base flex-shrink-0">✓</span><div><span class="font-bold text-gray-900">' + x.label + '</span><span class="text-gray-400"> — ' + x.desc + '</span></div>';
+c.appendChild(d);
+});
+document.getElementById("price-main").textContent = CONFIG.PRICE;
+var pf = document.getElementById("price-from");
+if (CONFIG.PRICE_FROM) pf.textContent = CONFIG.PRICE_FROM; else pf.style.display = "none";
+document.getElementById("price-note").textContent = CONFIG.PRICE_NOTE;
+document.getElementById("guarantee-days").textContent = CONFIG.GUARANTEE_DAYS;
+})();
+/* ===== CTAs ===== */
+document.getElementById("hero-cta").appendChild(createCTA(CONFIG.CTA_TEXT, true));
+document.getElementById("offer-cta").appendChild(createCTA("GARANTIR MEU ACESSO", true, "Acesso ao app logo após a confirmação da compra"));
+document.getElementById("final-cta").appendChild(createCTA("COMEÇAR DO ZERO À PERFORMANCE", false, CONFIG.GUARANTEE_DAYS + " dias de garantia · Sem risco"));
+document.querySelector("#sticky-cta > div").appendChild((function () {
+var a = document.createElement("a");
+a.href = CONFIG.CHECKOUT_URL; a.onclick = handleCheckout;
+a.className = "block text-center mn-grad text-white font-bold text-sm py-3.5 rounded-full shadow-lg";
+a.textContent = "Quero correr mais forte →";
+return a;
+})());
+/* ===== FAQ ===== */
+(function () {
+var faqs = [
+{ q: "Estou começando a correr agora. Serve pra mim?", a: "Sim. O protocolo foi criado também para quem está buscando os primeiros 5 ou 10 km. A ideia é construir uma base forte desde o início." },
+{ q: "Já corro meia e maratona. Também é pra mim?", a: "Sim. É para quem já corre distâncias maiores e quer sustentar o ritmo e evoluir. Foi esse tipo de preparação que ajudou o Rafael a fazer a maratona sub 3." },
+{ q: "Vou ganhar muita massa e ficar pesado pra correr?", a: "Não. O objetivo não é transformar você em fisiculturista, é desenvolver um corpo mais preparado para correr: mais força, mais resistência e mais confiança." },
+{ q: "Já faço musculação. Qual a diferença?", a: "A maioria dos corredores faz musculação genérica: agachamento, máquinas, aumento de carga. O protocolo trabalha o que o corredor precisa: estabilidade, controle de movimento, resistência muscular e a capacidade de absorver e produzir força a cada passada." },
+{ q: "Preciso de academia?", a: "Você pode fazer na academia ou nos ambientes previstos no protocolo. Ele foi pensado para complementar seus treinos de corrida na sua rotina." },
+{ q: "Isso evita lesões?", a: "O protocolo ajuda a reduzir fatores de risco associados ao treino, porque prepara o corpo para o que você exige dele. Ele não substitui avaliação médica nem fisioterapêutica." },
+{ q: "Como recebo o acesso?", a: "Depois da confirmação da compra, você recebe o acesso ao app Do Zero à Performance e já pode começar." }
+];
+var c = document.getElementById("faq-list");
+faqs.forEach(function (f, i) {
+var d = document.createElement("div");
+d.className = "bg-white border border-gray-200 rounded-xl overflow-hidden";
+d.innerHTML = '<button onclick="toggleFAQ(' + i + ')" class="w-full flex justify-between items-center px-5 py-4 text-left gap-3 hover:bg-gray-50 transition-colors"><span class="text-sm font-bold text-gray-900">' + f.q + '</span><svg id="faq-chevron-' + i + '" class="w-4 h-4 text-mn-orange flex-shrink-0 transition-transform duration-200" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"></polyline></svg></button><div id="faq-answer-' + i + '" class="hidden border-t border-gray-100 px-5 pb-4"><p class="text-sm text-gray-600 leading-relaxed pt-3">' + f.a + '</p></div>';
+c.appendChild(d);
+});
+})();
+function toggleFAQ(i) {
+var a = document.getElementById("faq-answer-" + i), ch = document.getElementById("faq-chevron-" + i), hidden = a.classList.contains("hidden");
+document.querySelectorAll("[id^='faq-answer-']").forEach(function (e) { e.classList.add("hidden"); });
+document.querySelectorAll("[id^='faq-chevron-']").forEach(function (e) { e.classList.remove("rotate-180"); });
+if (hidden) { a.classList.remove("hidden"); ch.classList.add("rotate-180"); }
+}
+/* ===== Liberar conteúdo no momento da oferta do vídeo ===== */
+(function () {
+var locked = document.getElementById("locked-content"), hint = document.getElementById("locked-hint");
+var KEY = "mn_dzp_unlocked";
+function unlock() {
+if (locked.style.display !== "none") return;
+locked.style.display = "block";
+if (hint) hint.style.display = "none";
+try { localStorage.setItem(KEY, "1"); } catch (e) {}
+}
+var q = new URLSearchParams(location.search), saved = false;
+try { saved = localStorage.getItem(KEY) === "1"; } catch (e) {}
+if (CONFIG.REVEAL_SECONDS <= 0 || q.has("liberar") || saved) { unlock(); return; }
+try {
+var player = new Vimeo.Player(document.getElementById("vsl"));
+player.on("timeupdate", function (d) { if (d.seconds >= CONFIG.REVEAL_SECONDS) unlock(); });
+player.on("ended", unlock);
+} catch (e) { unlock(); }
+})();
+/* ===== CTA fixo: aparece depois da seção de resultados ===== */
+(function () {
+var t = document.getElementById("testimonials-section"), s = document.getElementById("sticky-cta");
+if (!t || !s || !("IntersectionObserver" in window)) return;
+new IntersectionObserver(function (es) {
+es.forEach(function (e) {
+if (!e.isIntersecting && e.boundingClientRect.top < 0) s.classList.remove("sticky-hidden");
+else s.classList.add("sticky-hidden");
+});
+}, { threshold: 0 }).observe(t);
+})();
+</script>
+</body>
+</html>
